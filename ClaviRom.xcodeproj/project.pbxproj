@@ -15,6 +15,7 @@
 		E3D19D51B64A73CDB44F9735 /* rm-VA.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 5E809C850277E1B11F5B70D9 /* rm-VA.tsv */; };
 		E92395590E1F8A4E9E282B86 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF8B700B69D32A618B0FE2 /* KeyboardViewController.swift */; };
 		F993BB5172C0964A6E157E13 /* ClaviRomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E36B64A7906A95A36DCE7 /* ClaviRomApp.swift */; };
+		FBA46D5925D41B287720AF71 /* KeyboardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE947105F7DEAE03AE11A1 /* KeyboardTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		1289860BDDFEF880BBE9F052 /* SuggestionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionEngine.swift; sourceTree = "<group>"; };
 		298E36B64A7906A95A36DCE7 /* ClaviRomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaviRomApp.swift; sourceTree = "<group>"; };
+		3AFE947105F7DEAE03AE11A1 /* KeyboardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTheme.swift; sourceTree = "<group>"; };
 		5E809C850277E1B11F5B70D9 /* rm-VA.tsv */ = {isa = PBXFileReference; path = "rm-VA.tsv"; sourceTree = "<group>"; };
 		6A468D5BA21B2C2DAD49D6EC /* Keyboard.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A59501747AE97A489AA8432 /* ClaviRom.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ClaviRom.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D4C136FBEBAD04AE1F23E224 /* Info.plist */,
+				3AFE947105F7DEAE03AE11A1 /* KeyboardTheme.swift */,
 				E1DF8B700B69D32A618B0FE2 /* KeyboardViewController.swift */,
 				DC6232F754EA325B685261AC /* KeyButton.swift */,
 				8D0BC5EFD391B2E6F9F7387B /* KeyPopup.swift */,
@@ -206,6 +209,7 @@
 			files = (
 				2C6159D0650EE4BBCE16908D /* KeyButton.swift in Sources */,
 				A06FFEDEECF859205B78AEE4 /* KeyPopup.swift in Sources */,
+				FBA46D5925D41B287720AF71 /* KeyboardTheme.swift in Sources */,
 				E92395590E1F8A4E9E282B86 /* KeyboardViewController.swift in Sources */,
 				4285B730D5FEC79582E08B58 /* SuggestionEngine.swift in Sources */,
 			);
