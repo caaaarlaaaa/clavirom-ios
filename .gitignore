@@ -20,3 +20,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# XcodeGen source of truth is project.yml; the generated project is committed
+# for convenience, but user state is not.
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/

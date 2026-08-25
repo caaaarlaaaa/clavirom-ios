@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D30942EE1DDE361C77E6050 /* Keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6A468D5BA21B2C2DAD49D6EC /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C6159D0650EE4BBCE16908D /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6232F754EA325B685261AC /* KeyButton.swift */; };
+		4285B730D5FEC79582E08B58 /* SuggestionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1289860BDDFEF880BBE9F052 /* SuggestionEngine.swift */; };
+		A06FFEDEECF859205B78AEE4 /* KeyPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BC5EFD391B2E6F9F7387B /* KeyPopup.swift */; };
+		B39D2447415BFD2E8EF96946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E46FCCC304D516A2F7F27 /* ContentView.swift */; };
+		E3D19D51B64A73CDB44F9735 /* rm-VA.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 5E809C850277E1B11F5B70D9 /* rm-VA.tsv */; };
+		E92395590E1F8A4E9E282B86 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF8B700B69D32A618B0FE2 /* KeyboardViewController.swift */; };
+		F993BB5172C0964A6E157E13 /* ClaviRomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E36B64A7906A95A36DCE7 /* ClaviRomApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70A01FD9AA7534AEBF0BF14C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15790F8626DCA627705E656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6AFB48F0D80AAD18BB52E4;
+			remoteInfo = Keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		924FF43E856593F514B0ABE1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0D30942EE1DDE361C77E6050 /* Keyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1289860BDDFEF880BBE9F052 /* SuggestionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionEngine.swift; sourceTree = "<group>"; };
+		298E36B64A7906A95A36DCE7 /* ClaviRomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaviRomApp.swift; sourceTree = "<group>"; };
+		5E809C850277E1B11F5B70D9 /* rm-VA.tsv */ = {isa = PBXFileReference; path = "rm-VA.tsv"; sourceTree = "<group>"; };
+		6A468D5BA21B2C2DAD49D6EC /* Keyboard.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A59501747AE97A489AA8432 /* ClaviRom.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ClaviRom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0BC5EFD391B2E6F9F7387B /* KeyPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPopup.swift; sourceTree = "<group>"; };
+		A15E46FCCC304D516A2F7F27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4C136FBEBAD04AE1F23E224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC6232F754EA325B685261AC /* KeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
+		E1DF8B700B69D32A618B0FE2 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2878EA5DD08C04C0F1392A2D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3FC35755AA05023D42E6DCFF /* wordlists */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		3FC35755AA05023D42E6DCFF /* wordlists */ = {
+			isa = PBXGroup;
+			children = (
+				5E809C850277E1B11F5B70D9 /* rm-VA.tsv */,
+			);
+			path = wordlists;
+			sourceTree = "<group>";
+		};
+		62EBC3CD5ED4E5A8BCD62711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A59501747AE97A489AA8432 /* ClaviRom.app */,
+				6A468D5BA21B2C2DAD49D6EC /* Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DED8CC6E64A4286743A023 = {
+			isa = PBXGroup;
+			children = (
+				F5B90284A0C3CA1620106E83 /* App */,
+				2878EA5DD08C04C0F1392A2D /* data */,
+				D49EB904EE361396E7BFAB82 /* Keyboard */,
+				62EBC3CD5ED4E5A8BCD62711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49EB904EE361396E7BFAB82 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D4C136FBEBAD04AE1F23E224 /* Info.plist */,
+				E1DF8B700B69D32A618B0FE2 /* KeyboardViewController.swift */,
+				DC6232F754EA325B685261AC /* KeyButton.swift */,
+				8D0BC5EFD391B2E6F9F7387B /* KeyPopup.swift */,
+				1289860BDDFEF880BBE9F052 /* SuggestionEngine.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		F5B90284A0C3CA1620106E83 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				298E36B64A7906A95A36DCE7 /* ClaviRomApp.swift */,
+				A15E46FCCC304D516A2F7F27 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A7FE08502A53905F5456275 /* ClaviRom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3420FA78BE7C41B6163229EE /* Build configuration list for PBXNativeTarget "ClaviRom" */;
+			buildPhases = (
+				B80FB74963E7207995209C22 /* Sources */,
+				924FF43E856593F514B0ABE1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEF0AE160A00FC28DE1F30C /* PBXTargetDependency */,
+			);
+			name = ClaviRom;
+			packageProductDependencies = (
+			);
+			productName = ClaviRom;
+			productReference = 7A59501747AE97A489AA8432 /* ClaviRom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6AFB48F0D80AAD18BB52E4 /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E665B87AD297E1553B4FBE /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				2E960EFE75A181C50E0DFBFE /* Sources */,
+				E9DE40826493E4EE49C8B08D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			packageProductDependencies = (
+			);
+			productName = Keyboard;
+			productReference = 6A468D5BA21B2C2DAD49D6EC /* Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C15790F8626DCA627705E656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7A7FE08502A53905F5456275 = {
+						ProvisioningStyle = Automatic;
+					};
+					ED6AFB48F0D80AAD18BB52E4 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF208A112F1B9FB0B03F73A1 /* Build configuration list for PBXProject "ClaviRom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B5DED8CC6E64A4286743A023;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 62EBC3CD5ED4E5A8BCD62711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A7FE08502A53905F5456275 /* ClaviRom */,
+				ED6AFB48F0D80AAD18BB52E4 /* Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DE40826493E4EE49C8B08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D19D51B64A73CDB44F9735 /* rm-VA.tsv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E960EFE75A181C50E0DFBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6159D0650EE4BBCE16908D /* KeyButton.swift in Sources */,
+				A06FFEDEECF859205B78AEE4 /* KeyPopup.swift in Sources */,
+				E92395590E1F8A4E9E282B86 /* KeyboardViewController.swift in Sources */,
+				4285B730D5FEC79582E08B58 /* SuggestionEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80FB74963E7207995209C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F993BB5172C0964A6E157E13 /* ClaviRomApp.swift in Sources */,
+				B39D2447415BFD2E8EF96946 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EEF0AE160A00FC28DE1F30C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6AFB48F0D80AAD18BB52E4 /* Keyboard */;
+			targetProxy = 70A01FD9AA7534AEBF0BF14C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11BE0435974F94CF5A352994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClaviRom;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clavirom.ClaviRom;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		155E7F8D4EC83B0A6ABA4BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clavirom.ClaviRom.Keyboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A7296F68EE03FD730506E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		76A0C4CF48B1E6E7CA7C2AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9AD86C2DA56B68C351834C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clavirom.ClaviRom.Keyboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F24146E2E3009B034870D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClaviRom;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clavirom.ClaviRom;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3420FA78BE7C41B6163229EE /* Build configuration list for PBXNativeTarget "ClaviRom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F24146E2E3009B034870D0 /* Debug */,
+				11BE0435974F94CF5A352994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		39E665B87AD297E1553B4FBE /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD86C2DA56B68C351834C1B /* Debug */,
+				155E7F8D4EC83B0A6ABA4BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF208A112F1B9FB0B03F73A1 /* Build configuration list for PBXProject "ClaviRom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7296F68EE03FD730506E17 /* Debug */,
+				76A0C4CF48B1E6E7CA7C2AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C15790F8626DCA627705E656 /* Project object */;
+}
